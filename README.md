@@ -7,13 +7,13 @@
 | Generator hidden layers           | 4                                  | 5                       |
 | Neurons per hidden layer          | 16 384 - 131 072                   | 16 384 - 262 144        |
 | Network complexity                | 128                                | 64                      |
-| Generator output neurons          | 28 x 28                            | 64$\times$64$\times$64  |
+| Generator output neurons          | 28x28                              | 64x64                   |
 | Activation function               | $tanh$                             | $tanh$                  |
 | Batch size                        | 300, 400, 600                      | 250, 200                |
 | Label rates (in batch size order) | 0.01, 0.005, 0.00167               | 0.08, 0.1               |
 | Stop condition                    | 100 training epochs                | 90 training epochs      |
 | Tournament size                   | 2                                  | 2                       |
-| Grid sizes                        | 1x1, 2x2, and 3x3.                 | 1x1 and 2x2            |
+| Grid sizes                        | 1x1, 2x2, and 3x3.                 | 1x1 and 2x2             |
 | Generator Performance measure     | FID                                | Inception Score (IS)    |
 | Optimizer                         | Adam                               | Adam                    |
 | Initial discriminator LR          | 0.001                              | 0.0007                  |
