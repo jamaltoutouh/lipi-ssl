@@ -1,6 +1,8 @@
 # Semi-Supervised Learning Lipizzaner
 This repository contains the variation of **Lipizzaner** to address **Semi-supervised Learning**. Lipizzaner is a framework to train generative adversarial networks (i.e., optimize their parameters) with gradient-based optimizers like Adam by using a distributed coevolutionary setup.
 
+Toutouh, Jamal, Nalluru, Subhash, Hemberg, Erik, & O'Reilly, Una-May. (2023). **Semi-Supervised Learning with Coevolutionary Generative Adversarial Networks**. *Zenodo* pp. 1--12 [https://doi.org/10.5281/zenodo.7840477](https://doi.org/10.5281/zenodo.7840477) 
+
 
 
 | Parameter                         | MNIST                              | CIFAR-10                |
