@@ -1,8 +1,20 @@
 # Semi-Supervised Learning Lipizzaner
-This repository contains the variation of **Lipizzaner** to address **Semi-supervised Learning**. Lipizzaner is a framework to train generative adversarial networks (i.e., optimize their parameters) with gradient-based optimizers like Adam by using a distributed coevolutionary setup.
+This repository stores the code of **Lipi-SSL** project, a variant of **[Lipizzaner](https://github.com/ALFA-group/lipizzaner-gan)** to address **Semi-supervised Learning**. Lipizzaner is a framework to train generative adversarial networks (i.e., optimize their parameters) with gradient-based optimizers like Adam by using a distributed coevolutionary setup. 
 
-Toutouh, Jamal, Nalluru, Subhash, Hemberg, Erik, & O'Reilly, Una-May. (2023). **Semi-Supervised Learning with Coevolutionary Generative Adversarial Networks**. *Zenodo* pp. 1--12 [https://doi.org/10.5281/zenodo.7840477](https://doi.org/10.5281/zenodo.7840477) 
+The research work behind this project has been published in the following preprint paper:
+- Jamal Toutouh, Subhash Nalluru, Erik Hemberg, & Una-May O'Reilly. (2023). **Semi-Supervised Learning with Coevolutionary Generative Adversarial Networks** [Preprint]. *Zenodo*, pp. 1--12 [https://doi.org/10.5281/zenodo.7840477](https://doi.org/10.5281/zenodo.7840477) 
 
+### Experimental analysis
+
+Lipi-SSL has been evaluated on the well-know image datasets MNIST and CIFAR-10. 
+
+The configuration files used to run the experiments are the following ones:
+
+- **General configuration file:** [`./src/configuration/quickstart-semi-supervised-learning/general.yml`](https://github.com/jamaltoutouh/lipi-ssl/blob/main/src/configuration/quickstart-semi-supervised-learning/general.yml)
+- **MNIST instance:** [`./src/configuration/quickstart-semi-supervised-learning/mnist.yml`](https://github.com/jamaltoutouh/lipi-ssl/blob/main/src/configuration/quickstart-semi-supervised-learning/mnist.yml)
+- **CIFAR-11 instance:** [`./src/configuration/quickstart-semi-supervised-learning/cifar.yml`](https://github.com/jamaltoutouh/lipi-ssl/blob/main/src/configuration/quickstart-semi-supervised-learning/cifar.yml)
+
+These configuration files encapsulate the following Lipi-SSL hyperparamenter configuration:
 
 
 | Parameter                         | MNIST                              | CIFAR-10                |
@@ -26,17 +38,7 @@ Toutouh, Jamal, Nalluru, Subhash, Hemberg, Erik, & O'Reilly, Una-May. (2023). **
 | Initial generator LR              | 0.0002                             | 0.0003                  |
 
 
-
-# Lipizzaner
-Lipizzaner is a framework to train generative adversarial networks with gradient-based optimizers like Adam in a coevolutionary setup. It hence combines the advantages of both to achieve fast and stable results, as described in our papers:
-
-- Abdullah Al-Dujaili, Tom Schmiedlechner, Erik Hemberg, Una-May O'Reilly, “Towards distributed coevolutionary GANs,” AAAI 2018 Fall Symposium, 2018.
-  - The source coude of the experiments performed in this paper can be seen in the following path  `./theoretical_experiments/`
-
-- Tom Schmiedlechner, Ignavier Ng Zhi Yong, Abdullah Al-Dujaili, Erik Hemberg, Una-May O'Reilly, “Lipizzaner: A System That Scales Robust Generative Adversarial Network Training,” NeurIPS 2018 Workshop on System for Machine Learning, 2018.
-  - The configuration files to run the experiments performed in this paper can be found in the following path  `./src/configuration/neurips2018/`
-
-### Setup
+### Lipi-SSL/Lipizzaner Setup
 
 1. Install Docker
 2. In the lipizzaner-gan folder run:
