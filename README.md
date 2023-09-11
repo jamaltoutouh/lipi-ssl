@@ -12,7 +12,7 @@ The configuration files used to run the experiments are the following ones:
 
 - **General configuration file:** [`./src/configuration/quickstart-semi-supervised-learning/general.yml`](https://github.com/jamaltoutouh/lipi-ssl/blob/main/src/configuration/quickstart-semi-supervised-learning/general.yml)
 - **MNIST instance:** [`./src/configuration/quickstart-semi-supervised-learning/mnist.yml`](https://github.com/jamaltoutouh/lipi-ssl/blob/main/src/configuration/quickstart-semi-supervised-learning/mnist.yml)
-- **CIFAR-11 instance:** [`./src/configuration/quickstart-semi-supervised-learning/cifar.yml`](https://github.com/jamaltoutouh/lipi-ssl/blob/main/src/configuration/quickstart-semi-supervised-learning/cifar.yml)
+- **CIFAR-10 instance:** [`./src/configuration/quickstart-semi-supervised-learning/cifar.yml`](https://github.com/jamaltoutouh/lipi-ssl/blob/main/src/configuration/quickstart-semi-supervised-learning/cifar.yml)
 - **SVHN instance:** [`./src/configuration/quickstart-semi-supervised-learning/svhn.yml`](https://github.com/jamaltoutouh/lipi-ssl/blob/main/src/configuration/quickstart-semi-supervised-learning/svhn.yml)
 
 These configuration files encapsulate the following Lipi-SSL hyperparamenter configuration:
