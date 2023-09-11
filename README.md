@@ -6,18 +6,19 @@ The research work behind this project has been published in the following prepri
 
 ### Experimental analysis
 
-Lipi-SSL has been evaluated on the well-know image datasets MNIST and CIFAR-10. 
+Lipi-SSL has been evaluated on the well-know image datasets MNIST, CIFAR-10, and SVHN. 
 
 The configuration files used to run the experiments are the following ones:
 
 - **General configuration file:** [`./src/configuration/quickstart-semi-supervised-learning/general.yml`](https://github.com/jamaltoutouh/lipi-ssl/blob/main/src/configuration/quickstart-semi-supervised-learning/general.yml)
 - **MNIST instance:** [`./src/configuration/quickstart-semi-supervised-learning/mnist.yml`](https://github.com/jamaltoutouh/lipi-ssl/blob/main/src/configuration/quickstart-semi-supervised-learning/mnist.yml)
 - **CIFAR-11 instance:** [`./src/configuration/quickstart-semi-supervised-learning/cifar.yml`](https://github.com/jamaltoutouh/lipi-ssl/blob/main/src/configuration/quickstart-semi-supervised-learning/cifar.yml)
+- **SVHN instance:** [`./src/configuration/quickstart-semi-supervised-learning/svhn.yml`](https://github.com/jamaltoutouh/lipi-ssl/blob/main/src/configuration/quickstart-semi-supervised-learning/svhn.yml)
 
 These configuration files encapsulate the following Lipi-SSL hyperparamenter configuration:
 
 
-| Parameter                         | MNIST                              | CIFAR-10                |
+| Parameter                         | MNIST                              | CIFAR-10 & SVHN         |
 |-----------------------------------|------------------------------------|-------------------------|
 | Network type                      | MNIST SSL-DCGAN                    | CIFAR SSL-DCGAN         |
 | Input neurons to generator        | 100                                | 100                     |
